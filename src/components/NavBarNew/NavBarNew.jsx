@@ -13,16 +13,6 @@ export default function NavBarNew() {
             Browse Products
           </NavLink>
         </li>
-        <li className="nav-item">
-          <NavLink className="nav-link text-black nav-link-hover" to="/booking">
-            Appointment Booking
-          </NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink className="nav-link text-black nav-link-hover" to="/maps">
-            Locate Us
-          </NavLink>
-        </li>
       </ul>
     </nav>
   );
