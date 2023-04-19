@@ -1,0 +1,10 @@
+.navbar-nav .nav-link:hover {
+  background-color: #e9ecef;
+}
+
+.headerMenu {
+  position: sticky;
+  flex-direction: column;
+  top: 56px;
+  z-index: 6;
+}

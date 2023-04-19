@@ -1,0 +1,51 @@
+.inventoryAdd {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto 0;
+  max-width: 1125px;
+}
+
+.inventoryAddPageTitle {
+  font-size: 23px;
+}
+
+.rowHeaderIA {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px !important;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.wd-300-IA {
+  width: 1125px;
+}
+
+.tableIA {
+  width: 1125px;
+}
+
+.controlButtonsIA {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.inventoryAddHeader {
+  background-color: lightgray;
+}
+
+.inventoryAddHeader:hover {
+  background-color: lightgray;
+}
+
+.inventoryAddHighlight {
+  background-color: #f0f0f0;
+}
+
+.prodQuantityIA::placeholder {
+  text-align: center;
+}

@@ -1,0 +1,104 @@
+.inventoryTablePF {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.filterHeaderPF {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentPF {
+  max-width: 1125px;
+  min-width: calc(100vw - 800px);
+}
+
+.productsContent {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.actionsTableData {
+  display: flex;
+}
+
+/* productform */
+.rowHeaderProd {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  height: 40px;
+  max-width: 1125px;
+  width: 100%;
+}
+
+.rowHeaderProd .input-group {
+  width: 35%;
+}
+
+.addNewProduct {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.addNewProduct button {
+  margin-left: 10px;
+}
+
+.prodTableHead {
+  background-color: lightgrey !important;
+}
+
+table thead tr:hover {
+  background-color: unset;
+}
+
+table tbody tr:hover {
+  background-color: #f2f2f2;
+}
+
+.productsContentPF td.pictureUrl {
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.productsContentPF td.actionsTableData {
+  width: 200px;
+}
+
+.actionsTableDataPF {
+  display: flex !important;
+  margin-right: 0 !important;
+}
+.actionsTableDataPF,
+button {
+  margin-right: 10px;
+}
+
+.productsContentPF .table,
+tr {
+  border-bottom-width: var(--bs-border-width);
+  box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+
+.productsContentPF .table,
+td {
+  border-bottom-width: 0 !important;
+  box-shadow: unset !important;
+}
+
+.productPortfolio {
+  font-size: 23px;
+}

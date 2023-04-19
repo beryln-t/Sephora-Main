@@ -1,0 +1,63 @@
+.inventoryTable {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.filterHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.divider {
+  background-color: var(--bs-border-color);
+  height: 0.5px;
+}
+.content {
+  max-width: 1125px;
+  min-width: calc(100vw - 800px);
+}
+
+.productsContent {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.selectLocation {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  color: red;
+}
+
+.rowHeader {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  height: 40px;
+}
+
+div .wd-300,
+button .wd-300,
+.wd-300 {
+  width: 300px;
+}
+
+.actionsTableData {
+  display: flex;
+}
+
+.inventoryTableHeader {
+  background-color: lightgray;
+}
+
+.inventoryTableHeader:hover {
+  background-color: lightgray;
+}
