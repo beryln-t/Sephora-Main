@@ -110,5 +110,3 @@ const updateProducts = async (req, res) => {
 
 - https://www.sephora.sg/ (Image and Product resource)
 - https://getbootstrap.com/ (CSS)
-- https://shahabyazdi.github.io/react-multi-date-picker/min-&-max-date/ (React Calendar)
-- https://momentjscom.readthedocs.io/en/latest/moment (Momentjs Documentation)
