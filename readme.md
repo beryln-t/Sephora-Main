@@ -106,23 +106,6 @@ const updateProducts = async (req, res) => {
 };
 ```
 
-### Show Makeup Artists by Location
-
-```javascript
-const show = async (req, res) => {
-  const { id } = req.params;
-
-  try {
-    const mkaeupArtist = await MakeupArtist.find({ _id: id }).populate(
-      "location.id"
-    );
-    res.status(200).json(mkaeupArtist);
-  } catch (error) {
-    res.status(400).json({ error: error.message });
-  }
-};
-```
-
 ## References
 
 - https://www.sephora.sg/ (Image and Product resource)
