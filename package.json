@@ -47,5 +47,8 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "react-devtools": "^4.27.4",
     "vite": "^4.2.0"
+  },
+   "engines": {
+    "node": "<=14"
   }
 }
