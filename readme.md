@@ -49,7 +49,6 @@ https://sephora-main.cyclic.app/
  <p align="center">[Data Model]</p>
  
 ## CRUD
-
 ### ADD Products to Location
 
 ```javascript
@@ -105,7 +104,7 @@ const addLocProduct = async (req, res) => {
 };
 ```
 
-### Edit Product
+### Update Product
 
 ```javascript
 const updateProducts = async (req, res) => {
@@ -122,6 +121,54 @@ const updateProducts = async (req, res) => {
       { new: true }
     );
     res.status(200).json(updatedProduct);
+  } catch (error) {
+    res.status(400).json({ error: error.message });
+  }
+};
+```
+
+### Delete Product From location
+
+```javascript
+const deleteLocProduct = async (req, res) => {
+  try {
+    const locationId = req.params.locationId;
+    const productId = req.params.productId;
+
+    const location = await Location.findById(locationId);
+
+    const productIndex = location.products.findIndex(
+      (p) => p.productDetails.toString() === productId
+    );
+
+    // If the product exists in the array, remove it
+    if (productIndex >= 0) {
+      location.products.splice(productIndex, 1);
+    } else {
+      return res.status(404).json({ error: "Product not found in location" });
+    }
+
+    const updatedLocation = await location.save();
+
+    res.status(200).json(updatedLocation);
+  } catch (error) {
+    res.status(400).json({ error: error.message });
+  }
+};
+```
+
+### Read Product
+
+```javascript
+const showProducts = async (req, res) => {
+  try {
+    const query = {};
+    const products = await Products.find(query).sort({
+      name: 1,
+      category: 1,
+      brand: 1,
+    });
+    res.status(200).json(products);
   } catch (error) {
     res.status(400).json({ error: error.message });
   }
