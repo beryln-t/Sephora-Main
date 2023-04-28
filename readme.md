@@ -6,6 +6,8 @@ Sephora is a premier beauty and cosmetics retailer with a strong online presence
 
 ### Deployment
 
+https://sephora-main.cyclic.app/
+
 ## Timeframe
 
 7 Working Days
@@ -24,8 +26,28 @@ Sephora is a premier beauty and cosmetics retailer with a strong online presence
 
 ## Screenshots of the Application
 
+<p align="center"><img src="https://i.imgur.com/fbFWeRI.png" width="70%" height="70%"> </p>
+ <p align="center">[Product Browsing]</p>
+
+ <p align="center"><img src="https://i.imgur.com/zpXia00.png" width="70%" height="70%"> </p>
+ <p align="center">[Product Details]</p>
+
+ <p align="center"><img src="https://i.imgur.com/UgGh6MW.png" width="70%" height="70%"> </p>
+ <p align="center">[Product Portfolio]</p>
+
+ <p align="center"><img src="https://i.imgur.com/nR0edHC.png" width="70%" height="70%"> </p>
+ <p align="center">[Adding Products]</p>
+
+ <p align="center"><img src="https://i.imgur.com/hhJ5aW0.png" width="70%" height="70%"> </p>
+ <p align="center">[Inventory Management]</p>
+ <p align="center"><img src="https://i.imgur.com/0aWISm8.png" width="70%" height="70%"> </p>
+ <p align="center">[Inventory Management]</p>
+
 ## Model
 
+<p align="center"><img src="https://imgur.com/a/8qhUrN2" width="70%" height="70%"> </p>
+ <p align="center">[Data Model]</p>
+ 
 ## CRUD
 
 ### ADD Products to Location
