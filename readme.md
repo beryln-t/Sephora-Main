@@ -45,7 +45,7 @@ https://sephora-main.cyclic.app/
 
 ## Model
 
-<p align="center"><img src="https://imgur.com/a/8qhUrN2" width="70%" height="70%"> </p>
+<p align="center"><img src="https://i.imgur.com/LaIiH2m.png" width="70%" height="70%"> </p>
  <p align="center">[Data Model]</p>
  
 ## CRUD
